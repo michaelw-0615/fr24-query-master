@@ -11,9 +11,9 @@ To run this repo as a project, you need:
 ## Run
 Before running, activate the virtual environment in PowerShell:
 
-    ```
-    .source .venv/bin/activate
-    ```
+```powershell
+.source .venv/bin/activate
+```
 
 ## References
 For more information about the FR24 API service, see official documentation: https://fr24api.flightradar24.com/docs/
