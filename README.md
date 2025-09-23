@@ -4,7 +4,7 @@ This code repo is part of the Fall 2025 CMU Heinz-American Airlines capstone pro
 ## Prerequisites and dependencies
 To run this repo as a project, you need:
 
-- A FR24 API access token. This is obtained via subscription to the API service (note: not the flight tracker map subscription!).
+- An FR24 API access token. This is obtained via subscription to the API service (note: not the flight tracker map subscription!).
 - Python>=3.9.6
 
 Create a virtual environment for code execution:
