@@ -7,13 +7,37 @@ To run this repo as a project, you need:
 - A FR24 API access token. This is obtained via subscription to the API service (note: not the flight tracker map subscription!).
 - Python>=3.9.6
 
-
-## Run
-Before running, activate the virtual environment in PowerShell:
+Create a virtual environment for code execution:
 
 ```powershell
-.source .venv/bin/activate
+python3 -m venv .<venv_name>
 ```
+
+Before each run, activate the virtual environment in PowerShell:
+
+```powershell
+.source .<venv_name>/bin/activate
+```
+
+Within the virtual environment, use pip to download the following dependencies:
+```powershell
+pip install numpy pandas requests fr24sdk
+```
+
+After running, deactivate the virtual environment:
+
+```powershell
+deactivate
+```
+
+## Run
+To batch-query historical flight position data, run:
+
+```powershell
+python src/batch_hist_pos_query.py
+```
+
+More functionalities to come later.
 
 ## References
 For more information about the FR24 API service, see official documentation: https://fr24api.flightradar24.com/docs/
