@@ -10,7 +10,8 @@ To run this repo as a project, you need:
 
 ## Run
 Before running, activate the virtual environment in PowerShell:
-    ```PowerShell
+
+    ```
     .source .venv/bin/activate
     ```
 
