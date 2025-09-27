@@ -66,3 +66,5 @@ Change file names if necessary.
 
 ## References
 For more information about the FR24 API service, see official documentation: https://fr24api.flightradar24.com/docs/
+
+For more information about the Transtats database, see: https://www.transtats.bts.gov/DataIndex.asp
