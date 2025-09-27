@@ -41,7 +41,7 @@ python src/batch_hist_pos_query.py
 To merge T-100 tables from different years into one, run:
 
 ```powershell
-python3 src/flight_data_merge.py \\
+python3 src/dot_t100_flight_data_merge.py \\
 --inputs inputs/US_CARRIER_SUMMARY_2023.csv inputs/US_CARRIER_SUMMARY_2024.csv \\
 --out outputs/US_AA_10airports.csv \\
 --filter-aa \\
