@@ -62,6 +62,15 @@ outputs/aa_flight_test_enriched.csv && head -n 10 \\
 outputs/aa_flight_test_enriched.csv
 ```
 
+To merge weather data from METAR with flight data, run:
+
+```powershell
+python3 src/attach_weather.py \\
+--flights inputs/aa_flight_test_enriched_hubs.csv \\
+--weather inputs/All_Hubs_Weather_2023-01-01_to_2025-01-01.csv \\
+--out outputs/aa_flight_test_enriched_hubs_weather.csv && wc -l outputs/aa_flight_test_enriched_hubs_weather.csv && head -n 10 outputs/aa_flight_test_enriched_hubs_weather.csv
+```
+
 Change file names if necessary.
 
 ## References
